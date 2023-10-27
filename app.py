@@ -30,7 +30,7 @@ img_contact_form = Image.open("https://github.com/Jack291199/cty1/blob/8265d3258
 
 img_contact_form = img_contact_form.resize((450,280))
 
-img_lottie_animation = Image.open("C:\\Users\\Administrator\\Desktop\\website\\image\\vba.png")
+img_lottie_animation = Image.open("https://github.com/Jack291199/cty1/blob/0f34688647952727d7d1567ee51e2f7f80e8c718/image/vba.png")
 img_lottie_animation = img_lottie_animation.resize((450,280))
 
 
