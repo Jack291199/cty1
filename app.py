@@ -13,6 +13,10 @@ custom_style = """
 
 
 
+st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+st.markdown(custom_style, unsafe_allow_html=True)
+
+
 with st.sidebar:
     selected = option_menu(
         menu_title=None,
@@ -22,9 +26,6 @@ with st.sidebar:
         default_index=0
     )
 
-
-st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
-st.markdown(custom_style, unsafe_allow_html=True)
 
 
 
