@@ -26,7 +26,7 @@ def load_lottieURL(url):
 # load assets
 lottie_coding = load_lottieURL("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 
-img_contact_form = Image.open("C:\\Users\\Administrator\\Desktop\\website\\image\\python.png")
+img_contact_form = Image.open("https://github.com/Jack291199/cty1/blob/8265d3258031363ce8820536275857ae0a6ff430/image/python.png")
 
 img_contact_form = img_contact_form.resize((450,280))
 
