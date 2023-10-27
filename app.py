@@ -46,8 +46,7 @@ with st.container():
 
         st.markdown("[See more](https://www.bing.com/search?q=Bing+AI&showconv=0&FORM=hpcodx)")
 
-    with right_column:
-        st_lottie(lottie_coding, height=300, width=500, key="coding")
+ 
 
 #--------PROJECT-----
 with st.container():
