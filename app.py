@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 from PIL import Image
-
+from streamlit_option_menu import option_menu
 
 custom_style = """
 <style>
@@ -10,6 +10,17 @@ custom_style = """
     }
 </style>
 """
+
+
+
+with st.sidebar:
+    selected = option_menu(
+        menu_title=None,
+        options=["Home","Project","Contact"],
+        icons=["house","book","evelope"],
+        menu_icon="cast",
+        default_index=0
+    )
 
 
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
