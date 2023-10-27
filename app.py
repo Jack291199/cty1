@@ -1,6 +1,5 @@
 import streamlit as st
 import requests
-from streamlit_lottie import st_lottie
 from PIL import Image
 
 
@@ -16,12 +15,6 @@ custom_style = """
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 st.markdown(custom_style, unsafe_allow_html=True)
 
-# loading picture-------
-def load_lottieURL(url):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
 
 # load assets
 lottie_coding = load_lottieURL("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
