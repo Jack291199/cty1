@@ -18,11 +18,11 @@ st.markdown(custom_style, unsafe_allow_html=True)
 
 
 
-img_contact_form = Image.open("C:\\Users\\Administrator\\Desktop\\website\\image\\python.png")
+img_contact_form = Image.open("image/python.png")
 
 img_contact_form = img_contact_form.resize((450,280))
 
-img_lottie_animation = Image.open("C:\\Users\\Administrator\\Desktop\\website\\image\\vba.png")
+img_lottie_animation = Image.open("image/vba.png")
 img_lottie_animation = img_lottie_animation.resize((450,280))
 
 
